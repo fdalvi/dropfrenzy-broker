@@ -1,0 +1,19 @@
+{
+  "name": "dropfrenzy-broker",
+  "version": "0.1.0",
+  "description": "Broker for dropfrenzy.",
+  "keywords": ["game", "broker", "real-time", "webrtc"],
+  "homepage": "",
+  "author": "Fahim Dalvi <dalvifahim@gmail.com>",
+  "main": "p2p-broker.js",
+  "bin": {
+    "dropfrenzy-broker": "p2p-broker.js"
+  },
+  "dependencies": {
+    "socket.io": "*"
+  },
+  "devDependencies": {
+    "nodeunit": "*"
+  },
+  "engine": "node >= 0.6"
+}
